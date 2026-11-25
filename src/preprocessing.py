@@ -17,3 +17,5 @@ def check_missing_values(data):
   
 def clean_data(data): 
     return data.dropna() 
+
+# Fonction de nettoyage des donnees
