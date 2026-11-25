@@ -1,0 +1,27 @@
+
+# Environnements Python
+venv/
+.venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Modeles generes
+models/*.pkl
+models/*.joblib
+
+# Donnees privees et secrets
+data/private/
+.env
+
+# Parametres locaux des editeurs
+.vscode/
+.idea/
